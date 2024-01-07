@@ -1,0 +1,22 @@
+{
+  "name": "arquitetura-hexagonal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "ES6",
+  "scripts": {
+    "start": "tsx --watch ./src/app/products.ts",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "Stelvy Anselmo",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.6"
+  }
+}
